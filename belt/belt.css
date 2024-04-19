@@ -45,3 +45,27 @@
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
+/* MOBILE */
+
+@media screen and (max-width: 576px) {
+  .item {
+    width: 100%;
+  }
+}
+
+/* TABLET */
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .item {
+    width: 30%;
+  }
+}
+
+/* LAPTOP */
+
+@media screen and (min-width: 769px) {
+  .item {
+    width: 15%;
+  }
+}
