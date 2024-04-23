@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namidori</title>
+
+    <link
+      rel="shortcut icon"
+      sizes="50x50"
+      type="image/x-icon" 
+      href="../../imgs/logo2.jpg"
+    />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="resole.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  </head>
+  <body style="background-color: whitesmoke;">
+
+
+    <!--header-->
+    <div style="position: relative; position: fixed;z-index: 9999; width: 100%; top: 0;">
+      <div style="display: flex; background-color: black; justify-content: last baseline;">
+        <div>
+        <a href="#" style="text-decoration: none; color: white;">namidorishoes@gmail.com /</a>
+        <a href="#" style="text-decoration: none; color: white;">0867675067</a>
+        </div>
+        <div style="display: flex; position: absolute; right: 20px;">
+        <a href="../login/login.html" style="text-decoration: none; color: white;">Đăng Nhập</a>
+        </div>
+    </div>
+      <div
+      id="navbar"
+      class="d-flex justify-content-center"
+      style="height: 100px; z-index: 9999; width: 100%;"
+    >
+      <div id="navbar-logo" style="display: flex;">
+ 
+        <a href="../../trang chu/index.html">
+          <img
+          src="../../imgs/logo1.webp"
+          style="width: 170px; height: 100px">
+        </a>
+        
+      </div>
+      <div id="navbar-element" style="background-color: white; width: 100%; display: flex; justify-content: center; padding-right: 150px;">
+        <ul class="d-flex  fw-bold m-0" style="list-style: none; padding-top: 40px; gap: 50px;">
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+                <a href="../MTO/Shoe/shoe.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px;">SHOES <i class="fa-solid fa-sort-down"></i></a>
+              </button>
+              <div class="dropdown-content" style="font-size: 12px">
+                <a href="../MTO/Shoe/shoe.html">BASIC</a>
+                <a href="../MTO/Shoe/shoe.html">ADVANTAGE</a>
+                <a href="#">XERYUS</a>
+                <a href="#">MULE-SANDAL</a>
+                <a href="#">OTHER</a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="dropdown">
+             <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+               <a href="../MTO/mto.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">ACCESSORIES <i class="fa-solid fa-sort-down"></i></a>
+             </button>
+              <div class="dropdown-content" style="font-size: 12px">
+                <a href="../belt/belt.html">BELT</a>
+                <a href="#">BAG</a>
+                <a href="#">CLUTCH</a>
+                <a href="#">WALLET</a>
+                <a href="#">WATCHSTRAP</a>
+                <a href="#">LEATHER-JACKET</a>
+                <a href="#">SOCK</a>
+                <a href="#">POLO SHIRT</a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="dropdown">
+             <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+               <a href="../Shoe care/shoecare.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">SHOE CARE <i class="fa-solid fa-sort-down"></i></a>
+             </button>
+              <div class="dropdown-content" style="font-size: 12px">
+                <a href="../Shoe care/shoecare.html">SPA & SHINING</a>
+                <a href="../Shoe care/shoecare.html">THAY ĐẾ DA - RESOLE</a>
+                <a href="#">DỊCH VỤ DÁN ĐẾ NON-SLIP</a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="dropdown">
+             <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+               <a href="../belt/belt.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">PERSONNALIZATION <i class="fa-solid fa-sort-down"></i></a>
+             </button>
+              <div class="dropdown-content" style="font-size: 12px">
+                <a href="../MTO/mto.html">MTO</a>
+                <a href="../MTO/mto.html">MTM</a>
+                <a href="#">BESPOKE</a>
+                <a href="#">PATINA</a>
+              </div>
+            </div>
+          </li>
+          
+       
+         <li>
+           <div class="dropdown">
+            <button class="dropbtn fw-bold p-0" style="background-color: white;" >
+              <a href="../blog/blog.html" id="nav-element-a" style="color: black; background-color: white;; text-decoration: none; font-size: 15px">BLOG <i class="fa-solid fa-sort-down"></i></a>
+            </button>
+             <div class="dropdown-content" style="font-size: 12px">
+               <a href="../blog/blog.html">Những Kiến Thức Về Giày Tây</a>
+               <a href="../blog/blog.html">Kinh Nghiệm Dùng Giày Da</a>
+               <a href="#">Tin Tức Mới</a>
+              
+             </div>
+           </div>
+         </li>
+
+        </ul>
+        <div style="display: flex;">
+              <div style="display: flex;">
+                <div style="margin-top: 42px; padding-left: 30px">
+                  <input type="text" placeholder="tìm kiếm ..."><i class="fa-solid fa-magnifying-glass" style="width: 5px;"></i>
+                </div >
+                <a href="#"><i class="fa-solid fa-cart-shopping" style="margin-top: 48px; padding-left: 50px;"></i></a>
+              </div>
+            </div>
+      </div>
+    </div>
+    </div>
+
+  
+
+   
+
+     <!--background-->
+     <div class="slide" style="width: 100%; position: relative; margin-top: 130px;">
+      <img src="../../imgs/background.jpg" alt="..." style="height: 200px; width: 100%;">
+      <div>
+        <a href="#" style="position: absolute; top: 20%; left: 50%; text-decoration: none; color: white;">
+          <span>RESOLE</span></a>
+      </div>
+      <p style="position: absolute; top: 40%; left: 45%; font-size: 40px; color: white;">SHOECARE</p>
+      <div style="position: absolute; bottom: 5%; left: 48%;">
+        <div style="display: flex; color: white;"> Trang chủ
+          <p style="margin-left: 7px;">/</p>
+          <p style="margin-left: 7px; color: brown;">SHOECARE</p></div>
+      </div>
+    </div>
+
+
+    <!--RESOLE-->
+
+    <div class="content" style="font-size: 14px; padding-right: 300px; padding-left: 200px;">
+        <h2>DỊCH VỤ THAY ĐẾ GIÀY- RESOLE</h2>
+        <h5>Một đôi giày tốt thì bạn có thể sữ dụng lâu dài sau 2-3 lần thay đế giày giày. Mỗi lần thay đế giày sau khoảng 2-3 năm. Vậy làm sao biết được đôi giày của bạn có thực sự tốt? và có thể thay đế được hay không? Nó tùy thuộc vào 3 vấn đề:</h5>
+        <p>1. Bạn thường xuyên chăm sóc và bề mặt vẫn còn tình trạng tốt, có thể sữ dụng lâu dài hơn mặc dù đế bị hư. 
+
+        </p>
+
+        <p>2. Giày thuộc cấu trúc Goodyear hay Mckay và phải thuộc dòng handmade shoes thì mới thay được đế, nếu giày bạn thuộc loại sản xuất theo kiểu giày dán (cimented/bonded) tức là phần đế và phần mũ giày được dán lại bằng keo thì khả năng thay đế giày rất khó vì những nguyên nhân sau: cấu trúc phần insole (đế trong) chất lượng kém (thường làm bằng giấy hoặc chất liệu nonwoven) nên khi tháo đế ra thì nó cũng hư theo, do đặc điểm loại giày này thường bằng chất liệu đế cao su, TPR... đúc sẵn theo khuôn nên để kiếm được cái đế giống khuôn vậy hoàn toàn không khả thi. Keo dán dù có tốt cở nào thì sau 1 vài năm đi nắng, đi mưa thì cũng bị lão hóa do đó nó sẽ bị hở keo, sút đế là chuyện hoàn toàn có thể. Do đó cần lưu ý là nếu giày còn tốt mà đế bị mòn thì vá thêm rồi đi tạm :), nếu bị hở keo thì may lại rồi đi tạm. Trong cả 2 trường hợp tạm bợ này thì độ thẩm mỹ không có, thời gian sữ dụng còn lại cũng ngắn.
+
+        </p>
+
+        <p>3. Nếu đôi giày đáp ứng được mục 1 và 2 thì bạn hoàn toàn có thể thay đế da cho đôi giày của mình (xem cách thay đế da không dùng đúng form) NHƯNG nó sẽ không thể hoàn hảo vì quá trình thay đế giày hoàn toàn thủ công, rất phức tạp và mất nhiều thời gian. Giày phải đươc cho vào đúng form giày (last giày) của đôi giày thì đôi giày mới thẳng ra do quá trình đi tạo thành độ cong khi resoling sẽ làm cho đôi giày sau khi thay đế xong không thẳng như mới do đó việc thay đế dùng đúng form giày rất quan trọng (xem cách thay đế da dùng đúng form cho đôi giày thẳng đế). Những đôi giày mua ở nước ngoài khi bạn muốn thay đế giày tại Việt Nam thì bạn phải chấp nhận không dùng form, nhưng nếu bạn mua một đôi giày tại Namidori handmade shoes chúng tôi đảm bảo với bạn sẽ được thay đế với đúng form của giày. 
+
+        </p>
+        <p>Tại Namidori chúng tôi cung cấp dịch vụ thay đế giày. Vui lòng liên hệ để được tư vấn trước
+
+        </p>
+        <h5>Namidori HCM: 198 Trần Hưng Đạo, P. Nguyễn Cư Trinh, Quận 1
+
+        </h5>
+        <h5>Namidori Hà Nội: 101 Bùi Thị Xuân, Q. Hai Bà Trưng, Hà Nội
+
+        </h5>
+        <h5>Hotline: 08.67.67.50.67
+
+        </h5>
+        <img src="../../imgs/resole-namidori1.webp" style="width: 800px; margin-top: 20px; margin-bottom: 20px;">
+        <img src="../../imgs/resole-small.webp" style="width: 800px; margin-top: 10px;">
+        <img src="../../imgs/resole-at-namidori-8cb313e5-aa78-44cf-9e01-86e7269f5097.webp" alt="" style="width: 800px;   margin-top: 20px;  margin-bottom: 20px;">
+        <img src="../../imgs/thay-de-da-cho-giay-tay-tai-ho-chi-minh.webp" alt="" style="width: 800px;   margin-top: 20px;  margin-bottom: 20px;">
+    
+        <h5>Thay Đế Giày Geox tại Namidori Shoes SPA
+
+        </h5>
+        <img src="../../imgs/thay-de-giay-da-geox-tai-namidori.webp" style="width: 800px;  margin-top: 20px;  margin-bottom: 20px;" >
+        <h5>Thay Đế Giày Hugo Boss Tại Namidori Shoes SPA
+
+        </h5>
+        <img src="../../imgs/thay-de-da-mckay-cho-giay-hugo-boss-6b0b2c3b-2705-45cc-b6d0-d0100d8a7942.webp" style="width: 800px;  margin-top: 20px;  margin-bottom: 20px;">
+        <h5>Thay Đế Giày Tom Ford 
+
+        </h5>
+        <img src="../../imgs/thay-de-giay-cho-tom-ford-f0a2bfb4-2380-4418-bb45-096eb4d818f1.webp" style="width: 800px;  margin-top: 20px;  margin-bottom: 20px;">
+        <h5>Thay Đế Giày Dr. Martens
+
+        </h5>
+        <img src="../../imgs/dich-vu-thay-de-giay-dr-martens.webp" style="width: 800px;  margin-top: 20px;  margin-bottom: 20px;">
+        <h5>Thay Đế Giày Nữ Ecco tại Namidori Shoes SPA
+
+        </h5>
+        <img src="../..//imgs/thay-de-giay-nu-ecco.webp" style="width: 800px;  margin-top: 20px;  margin-bottom: 20px;">
+        <h5>Thay Đế Giày Timberland Tại Namidori Shoes SPA
+
+        </h5>
+        <img src="../../imgs/thay-de-giay-timberland-tai-namidori-shoes-spa.webp" style="width: 800px;  margin-top: 20px;  margin-bottom: 20px;">
+        <h5>Thay đế giày Rockport tại Namidori Shoes SPA
+
+        </h5>
+        <img src="../../imgs/thay-de-giay-rockport.webp" style="width: 800px;  margin-top: 20px;  margin-bottom: 20px;">
+        <h5>Thay đế giày Clarks tại Namidori Shoes SPA
+
+        </h5>
+        <img src="../../imgs/thay-de-giay-clarks.webp" style="width: 800px;  margin-top: 20px;  margin-bottom: 20px;">
+        <h5>Thay đế giày Redwing tại Namidori Shoes SPA
+
+        </h5>
+        <img src="../../imgs/thay-de-giay-redwing-3b9c1132-b46d-417b-a4ec-f5c8f85bf301.webp" style="width: 800px;  margin-top: 20px;  margin-bottom: 20px;">
+        <img src="../../imgs/thay-de-giay-moi-giay-moccasine.webp" style="width: 800px;  margin-top: 20px;  margin-bottom: 20px;">
+        <h5>Thay đế Christy Wedge tại Namidori
+
+        </h5>
+        <img src="../../imgs/thay-de-christy-wedge-tai-namidori.webp" style="width: 800px;  margin-top: 20px;  margin-bottom: 20px;" >
+        <h5>- Thay đế giày LV
+
+        </h5>
+        <h5>- Thay đế giày Gucci
+
+        </h5>
+        <h5>- Thay đế giày Hermes
+
+        </h5>
+    </div>
+
+    <!--Promotion-->
+    <div style="background-image: url(../../imgs/promotion2.jpg) ; width: 100%; height: 300px; margin-top: 20px; ">
+      <div class="container" style="font-size: 20px;">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 padding mt-5 ">
+            <div class="letter-left heading">
+              <p style="display: flex; justify-content: center; color: white; margin-top: 20px;">Nhập Email</p>
+              <p  style="display: flex; justify-content: center; color: white;">Để Nhận Tin Tức Từ Phía Chúng Tôi</p>
+            </div>
+             <form>
+              <div class="input-group" style="padding-top: 20px;">
+                <input type="email" class="form-control" placeholder="Nhập email của bạn">
+                <span class="input-group-btn">
+                  <button class="btn btn-info button_gradient" type="submit" title="Gửi ngay">Gửi ngay</button>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- INFOR -->
+    <div class="container d-flex justify-content-around align-items-start mt-4" style="gap: 45px;">
+      <div> Hệ Thống cửa hàng
+        <div class="adress mt-5" style="font-size: 14px;">
+          <div style="padding-bottom: 15px;"> <i class="fa-solid fa-location-pin me-2"></i>SG: 298 Trần Hưng Đạo, P. NCT, Q1, HCM</div>
+        <div style="padding-bottom: 15px"> <i class="fa-solid fa-location-pin me-2"></i>HN: 101 Bùi Thị Xuân, Q. HBT, HN</div>
+        <div style="padding-bottom: 15px"> <i class="fa-solid fa-phone-flip me-2 "></i>Hotline: <a href="#" style="text-decoration: none;">0867.675.067</a>
+        </div>
+        <div > <i class="fa-solid fa-location-pin me-2"></i>Email: <a href="#" style="text-decoration: none;">namidorishoes@gmail.com</a></div>
+        </div>
+      
+      <div style="padding-top: 5px;">
+        <a href="#">
+          <img src="https://bizweb.dktcdn.net/100/095/539/themes/898026/assets/bocongthuong.png?1688543444751">
+        </a>
+      </div>
+      </div>
+      <div>Về Chúng Tôi
+      <div class="about mt-5" style="width:20vw; font-size: 14px;" >
+        <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Giới Thiệu</a></div>
+        <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Tin Tức</a></div>
+        <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Liên Hệ</a></div>
+        <div class="about" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Shipping cost</a></div>
+      </div>
+      </div>
+      <div>Chính Sách
+        <div class="Policy mt-5" style="width:20vw; font-size: 14px;">
+          <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Thanh Toán</a></div>
+          <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Vận Chuyển</a></div>
+          <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Đổi Trả</a></div>
+          <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; color:#98a6b6;">Chính Sách Bảo Hành</a></div>
+          <div class="Policy" style="padding-bottom: 15px;"> <a href="#" style="text-decoration: none; overflow: hidden; width: 129px; color:#98a6b6;">Chính Sách Bảo Mật</a></div>
+        </div>
+      </div>
+      <div class="page">Fanpage
+      <form class="page1 d-flex justify-content-start">
+        <div class="divcha" style=" position: relative; display: flex;">
+          <img src="../imgs/background.jpg" style="height: 125px; width: 250px; margin-top: 50px;">
+          <div class="divcon" style=" position: absolute; margin-left: 10px;">
+            <a href="https://www.facebook.com/Namidorishoes">
+              <img src="../imgs/page.jpg" style="height: 50px; width: 50px; margin-top: 60px; border: 2px solid white; "> 
+             </a>
+          </div>
+          <div class="divcon1" style="margin-top: 55px; position: absolute; margin-left: 65px; color: white;">
+            <p style="text-overflow: ellipsis; white-space: nowrap; width: 144px; overflow: hidden;"> Namidori Luxury Handmade Shoes </p>
+          </div>
+          <div class="dicocn2" style="margin-top: 72px; position: absolute; margin-left: 65px; color: white; font-size: 13px;">
+            <p>28k người theo dõi</p>
+          </div>
+          <div class="divcon3" style=" position: absolute;">
+            <button style="margin-top: 140px; margin-left: 10px; width: 100px;">
+              <a href="https://www.facebook.com/Namidorishoes" style="text-decoration: none; font-size: 13px;"> <i class="fa-brands fa-square-facebook"></i>
+                LikePage
+              </a>
+            </button>
+          </div>
+        </div>
+        </form>
+        <div style="margin-top: 20px;">
+          <a href="#" style="text-decoration: none;"> <h5 style="font-size: 14px;">Thanh Toán</h5>
+            <img src="https://bizweb.dktcdn.net/100/095/539/themes/898026/assets/payment.png?1688543444751" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    
+    <div style=" display: flex; justify-content: center; background-color: black;">
+      <p style="color: white; font-size: 7px; padding-right: 5px;">
+        <i class="fa-solid fa-copyright"></i>
+      </p>
+      <h5 style="font-size: 14px; color: white; padding-right: 5px;">Bản quyền thuộc về</h5>
+      <h5 style="font-size: 14px; color: brown; padding-right: 5px;">Namidori Luxury Handmade Shoes</h5>
+      <h5 style="font-size: 14px; color: white;" color: white;>| cung cấp bởi Sapo</h5>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
